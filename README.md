@@ -1,4 +1,4 @@
-#Área	#Tema
+#Área     Tema
 Agile	Scrum fundamentals certified
 Git & GitHub	Curso acerca de git y github.
 	Practica de uso de git.
