@@ -1,0 +1,28 @@
+html 
+    head
+        title primer pagina con express
+    body
+        h1=hola
+        // cuando encuentra un - sabe que es javascript
+        - var arreglo = [1,2,3,4,5];
+        - for (var i = arreglo.length - 1; i>=0;i--)
+            p=arreglo[i]
+            p!="<h"+i+">cambiando de encabezado</h"+i+">"
+            p todo lo que esta entre corchetes se ejecuta como javascript #{arreglo[i]}
+            p.
+                hola haz click en #[a(href="www.google.com") mi ] 
+            // el igual sirve para ,  ejecute el codigo y lo imprima - unbuffered code, = buffered code , != permite imprimir html
+            if true
+                p podemos omitir el guion
+            /*each item in arreglo
+                p=item
+
+                case item
+                    when 1
+                        p= item 1
+                    when 2
+                        p= item 2
+                    when default 
+                        p=valio el asunto*/
+            
+            

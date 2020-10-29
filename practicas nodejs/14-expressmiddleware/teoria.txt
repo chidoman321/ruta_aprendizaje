@@ -1,0 +1,19 @@
+express es basicamente una pila de middlewares
+
+el middleware son las funciones que se ejecutan en el ciclo de request-response
+estos tiene acceso al objeto request y al response
+
+tipos
+
+	built in 
+		viene con express y solo es uno
+
+	aplication
+		utiliza metodos http ejemplo app.get ,app.use, las funciones middleware reciben
+		tres parametros req,res,next la ultima es la siguiente funcion a ejecutar en la pila de middlewares
+	routering level 
+
+	error handling
+		reciben 4 parametros el objeto de error,req,res y next  
+	de terceros
+		uno muy popular es body-parser
