@@ -10,4 +10,9 @@
 /17-conexionmongodb/node_modules
 /18-19schemasmongoose/node_modules
 /20-atributosvirtuales/node_modules
-21-validaciones/node_modules
+/21-validaciones/node_modules
+/22-validacionepersonalizadas/node_modules
+/23-mongosave/node_modules
+/24-mongofind/node_modules
+/25-sessiones/node_modules
+/26-27rutasmodularesycustomiddlewares/node_modules
