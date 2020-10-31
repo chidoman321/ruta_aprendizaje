@@ -1,0 +1,25 @@
+extends layout.pug
+block contenido
+        div(class="col-md-6 mx-auto big-top-space")
+            h1 hola
+            form(action="/users",method="POST")
+                div(class="form-group")
+                    laber(for="username") Username
+                    input(class="form-control" type="text",name="username",placeholder="username",id="username")
+                div(class="form-group")
+                    laber(for="email") Email
+                    input(class="form-control" type="text",name="email",placeholder="email",id="email")
+                div(class="form-group")
+                    laber(for="pass") Password
+                    input(class="form-control" type="password",name="pass",placeholder="password",id="pass")
+                div(class="form-group")
+                    laber(for="confirm") Confirma Password
+                    input(class="form-control" type="password",name="confirm",placeholder="confirm",id="confirm")
+                div(class="row top-space")
+                    div(class="col-xs col-sm-6")
+                         input(type="submit", value="enviar" class="btn btn-info top-space")
+                    div(class="col-xs col-sm-6 text-right")
+                        a(href="/login") Ya tengo cuenta
+        
+            
+            

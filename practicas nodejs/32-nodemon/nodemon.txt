@@ -1,0 +1,3 @@
+para evitar estar reiniciando el sv, usamos el paquete nodemon
+
+ejecutamos el nodemon app.js para monitorear el archivo principal
