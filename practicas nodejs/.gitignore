@@ -25,3 +25,11 @@
 /34-editarregistros/node_modules
 /35-deleteregistros/node_modules
 /36-refactoring/node_modules
+/37-populateuser/node_modules
+/38-validarpropietario/node_modules
+/39-subirimagenes/node_modules
+/40-mostrarimagenes/node_modules
+/41y42-InstalarguardarSessionesenRedis/node_modules
+/43-compartirsessionsocketioyexpress/node_modules
+/44-pubsubredis,express,socketio/node_modules
+/45-publicarasockets/node_modules

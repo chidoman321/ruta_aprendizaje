@@ -1,0 +1,2 @@
+express se comunica por http
+socket.io por websocket se establece una conexion directa entre servidor y cliente

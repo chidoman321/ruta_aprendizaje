@@ -13,32 +13,25 @@ router.get("/imagenes/new",function(req,res){
     res.render("app/imagenes/new");
 });
 
-router.all("/images/:id*", img_finder_middleware);
+router.all("/imagenes/:id*", img_finder_middleware);
+
 router.get("/imagenes/:id/edit",function(req,res){
-    Imagen.findById(req.params.id,function(err,doc){
-        res.render("app/imagenes/edit",{imagen: doc});
-    });
+    res.render("app/imagenes/edit");
     
     
 });
 router.route("/imagenes/:id").get(function(req,res){
-    Imagen.findById(req.params.id,function(err,doc){
-        res.render("app/imagenes/show",{image: doc});
-    });
+    res.render("app/imagenes/show");
 
 }).put(function(req,res){
-    Imagen.findById(req.params.id,function(err,img){
-        img.title = req.body.title;
-        img.save(function(err){
-            if(!err){
-                res.render("app/imagenes/show",{image: img});
-            }
-            else{
-                res.render("app/imagenes/"+img.id+"/edit",{image: img});
-            }
-        });
-        
-
+    res.locals.imagen.title = req.body.title;
+    res.locals.imagen.save(function(err){
+        if(!err){
+            res.render("app/imagenes/show");
+        }
+        else{
+            res.render("app/imagenes/"+req.params.id+"/edit");
+        }
     });
 }).delete(function(req,res){
     Imagen.findOneAndRemove({_id: req.params.id},function(err){
