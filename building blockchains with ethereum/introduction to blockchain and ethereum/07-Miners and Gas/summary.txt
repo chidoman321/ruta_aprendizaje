@@ -1,0 +1,17 @@
+the job of the miners is pick up transactions and verify them, 
+
+Gas essentialy is the fuel require in order to verify a transaction 
+,amount of work to verfiy  a transaction 
+
+the sender will indicate the gas price to incentive the transaction, also there is a gas limit
+if the cost of gas is higher than the specified one the transaction will not be  executed
+
+reaward of the miner exact fee totalcost = gasused x gasprice
+
+transaction verification
+-verify sender ans transaction integrity
+-confirm that the sender owns assets to send
+
+trustless consensus algorithms
+-proof of work
+-proof of stake

@@ -1,0 +1,11 @@
+a transaction can be considered an interaction between a sender and a recipient
+messages sent by eoas to each other to transfer value
+
+contents of a transaction 
+-recipient
+-signature of sender
+-value of assets
+-gas price incetive  for transaction be processed
+-gas limit hard cap on that incetive
+
+to include a transaction all the nodes should verify it , then all nodes need to update the state

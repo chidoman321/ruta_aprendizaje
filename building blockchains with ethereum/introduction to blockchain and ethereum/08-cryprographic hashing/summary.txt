@@ -1,0 +1,10 @@
+cryptographic hash of the previous block
+-timestamp
+-transactions
+
+ideal hash function 
+-easy compute hash value given any message
+-low probabilty of collision , is where two different inpunts have the same hash 
+-hard to coverter from hash value to the original input
+
+sha - 256 hash function is always  64 bytes long

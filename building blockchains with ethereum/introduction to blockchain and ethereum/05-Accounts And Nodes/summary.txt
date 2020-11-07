@@ -1,0 +1,44 @@
+we move along now and take a look at the accounts and in ethereum  we start off with the
+concept of a centralized ledger where you have a single leger which can be  access by multiple 
+parties, represented here by the nodes A,B,C and D and you'll notice that the access is two way,
+that is this nodes can both read from the central ledger  and also write to it moving along we
+now take a look  at  a distributed ledger where all this nodes share the same ledger however ,
+each of them maintains  their own copy  of it  in order to ensure  that each ?? individual copies 
+are in sync with the rest this nodes will need  to conmunicate with each other ,in a blockchain
+network this share ledger is in fact a ?chain ? of interconnected blocks  which make up  the blockchain
+in order  to keep the indiviual  blockcahins in sync with the rest of the network each of this participants
+will need  to conmunicate with each other so when we have  a number of particapnts which are interconnected
+and operating on their own copy  of a share blockchain  we have a blockchain network and each of the
+indiviual participant  in this blockchain network , are know as  nodes, so let us examine the nodes
+in a ethereum blockchain network , so each of the nodes needs to run  the ethereum  virtual machine
+or evm which is a runtime enviorment, which is responsible for executing  the code in us smart contract
+this nodes will also need to be able to calculate the complexity of a transaction  in terms of the gas
+consumption  this is a concept which  we'll explore in depth later in the course and finally ethereum
+nodes should also ba able to verify individual transactions once again  will be examin in ?? depth 
+later on . now that we have taked a look at nodes  in a blockcahin network  we move on  ot ethereum
+account in ethereum will belogn  to either a sender or a recipient in a transaction  and in fact
+all ethereum  transactions are initiated from  ethereum  accounts , accounts in ethereum can be  of
+two types the first one is an externally owned account "eoas"  and the second one ?being? a contract
+account , let us examine each of these in a little more detail  so externally owned accounts are one
+which posses some sort of balance in the form of ether which is the cryptocurrency of ethereum this
+eoas are capable  of iniat transaction  on the ethereum network and each account  posses a pair
+of keys one being a private key and the other being a public key which are used to encrypt and
+decrypt one factor in which externally owned accounts differ from  the contract accounts is that 
+there is no  code associated with eoas noving along contract accounts much like eoas they also posses
+a balance in the form of ether and can also  fire transactions however contact accounts have some
+smart contracts code which associated with it and this  code can be ?trriger? by transactions all 
+by messages which are initiated by other contracts the function  of contract accounts in ethereum 
+is to perform  operatons  from  ?some ? smart contracts when  they are executed
+
+**nodes
+-evm responsible for running our smart cotnract 
+-calculate complexity
+-verify transactions 
+
+**account
+-each account in ethereum will belong to a sender or a recipient
+-all transaction are iniated from accounts
+-there are two types of accounts externally acounts and contract account
+-eoas have a balance, they can execute transacions, each have a pair of keys private/public key, there is no code associated
+.contract accounts , it have a balance, can trigger transactions,associated code which is triggered and can execute operations
+

@@ -1,0 +1,21 @@
+we begin this course by going over some of the broad range topics which should be covered
+
+we will begin with some of the basics of blockchain technologies and see how a blockchain is  simply
+a distributed ledger of transactions which is ?? it's inmutable and the transactions which make up
+the blockchain can easily be verified by any participant in a blockchain network
+
+we will then see why ethereum is one of the most widely used blockchain implementations out there
+and this is because it is an open blockchain based platform which allows nearly anyone to join the 
+network and also support the notion ?off? smart contracts that is contracts which are digital ?nature?
+and with the clauses of the contract specified in ?code?
+
+we will then examine how to use aws blockchain templates , automate a lot of the dust around spinning
+up on ethereum network on aws , we should use one of these templates to provision our own private network
+and once that is done we should develop our own smart contract in order to carry out an election
+we should see how these smart contracts are in fact digital contracts which are stored on the ethereum
+blockchain and also intereact with it and finally we should see how transactions fees are calculated
+in ethereum and cover how these fees are directly proportional to the computational complexity of the
+transaction
+
+
+

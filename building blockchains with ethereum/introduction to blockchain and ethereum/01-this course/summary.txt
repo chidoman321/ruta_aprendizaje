@@ -1,0 +1,20 @@
+hi and welcome to this course building blochchain with ethereum
+
+you will undestard blockchain technology and develop smart contracts on the ethereum platform
+there are many ?ways? to describe blochchain technology and here is a good one blockchain is x digital
+ledger of economic transactions that can be programmed to ?record? not just financial transactions
+but ?wothly? anything of value , the blochchain platform such as building descentralized application
+no longer needs a background in cryptography , mathematics or even very complex programming ,ethereum
+provides all the tools needed for you get up and running ?with you? smart contracts very quicly amazon
+web services offers blockchains templates ?which? allow you to construct your ?own? ethereum network or
+set up ethereum nodes that ?will? connect you to the ?main? production network, all this in no time at 
+all in this course we start off by understanding what exactly blochchain is and why ?? is used to construct
+distributed ledgers ?we'll? see how blockchain technology can be used to store a distributed ledger of
+inmutable and verifyable transactions ,?will? the basics of the ethereum ?? concepts such as accounts,
+nondes,transactions,?minus?, gas and proof of worrk ?we'll,will? then use blockchain templates on aws
+to build ?an ? ethereum network and configure a bastion host,proxies server to connect to this ethereum
+networks that we can run smart contracts and finally we use solidity programming languaje to build a smart contract
+?for ? voting in election , this course requires that you're comfortable programming in some high level
+programming languaje python or java and comfortable working  with cloud computing platforms such as 
+aws, azure or  gcp, developers who are looking to learn about blockchain its application and who want to
+work with the ethereum frmework for building descentralized apps ?other? ones for xx this couse is best suited

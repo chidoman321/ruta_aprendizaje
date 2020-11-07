@@ -1,0 +1,8 @@
+how is computed the hash of all the transaction of a block
+we use the data structure merkle trees ,if the ledger is represented by a list this problem is o(m)
+if it is represented as a tree the problem should be  o(log n)
+
+merkle root hash represent a block
+
+nodes must agree on the order of transactions  is need a trustless algorithm 
+like proof of work or proof of stake

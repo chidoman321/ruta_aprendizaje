@@ -1,0 +1,19 @@
+the first service is a ?? to authenticate when 
+
+compute -> ec2 -> pair key
+network ->vpc ->elastic
+
+allocation id=eipalloc-042d05216534d7205
+
+vpc = virtual private cloud
+
+to communicate vpc with ec2 , we use a internet gateway
+
+
+an availability zone will ha ve inside a  public subnet and a private subnet
+we will make a public subnet inside vpc as well a private subnet
+
+ecs will deploy a docker container cluster , which will contain the nodes and miners , and the ethstats
+the eth explorer also
+
+the template will also include load balancers on each public subnet

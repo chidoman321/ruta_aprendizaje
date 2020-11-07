@@ -1,0 +1,26 @@
+an essential feature of ethereum are any blockchain implementation for that matter is that
+transactions within are ?both? verifiable and ?permanent? verifiable meaning that if the transaction
+has been tampered in any way  it can be easily detected  and permanent meaning that ?if? the transaction
+has been written to the blockchain  it can not be  altered afterwards the mechanism used to achieve
+this features is the cryptographic link between all the blocks  in the blockchain so each block 
+consist  of a 
+
+-"hash"cryptographic hash of the previous block
+-"tiemstamp"along with a timestamp
+-"data"as well as an ordered list of transactions  for the current block 
+
+as result of  this  the trasaction data in any block  can not be modified after the block has been 
+written , this is because any modification  to a transaction ?will? afect the cryptographic hash
+of the block it is a ?part ? of , and since this hash  is part of the next block  in the blockchain
+that block will also  change so the only  way  a particular node can altered transactions after it  
+is been written ?? consensus from the other nodes in the network and this is extremely complicated
+so the result of this  cryptographic link  is that  each transaction in the blockchain  is both 
+verifiable and permanet , so we have seen  the definition of a blockchain but we described as a 
+growing list  of records of blocks  which are linked together cryptographicly  and nased on what  
+we have just covered we can also define a blockchain , as an open  and distributed ledger
+which can record transactions in a ?? which can record transactions  in a manner which both verifiable
+and permanent it is an open ledger because transaction keep getting added to it and the ledger keeps
+growing and it is distributed because it is spread across multiple nodes in a blockchain network
+and thanks to the cryptographic link between  the blocks and the blockchain  the transactions
+written ?in the? blockchain  are both verifiable and permanent
+

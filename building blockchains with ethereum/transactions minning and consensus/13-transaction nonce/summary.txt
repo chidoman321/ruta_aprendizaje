@@ -1,0 +1,7 @@
+Nonce = Number used once
+something meant  for use exactly once
+
+is a unique integer id which is incremented by 1 for each transaction on each account , this identifies
+every transaction in  an account
+
+in analogy the nonce will be the a cheq number

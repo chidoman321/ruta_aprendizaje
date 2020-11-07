@@ -1,0 +1,40 @@
+we should now explore some of the basics concepts which underline ethereum to begin
+with what ethereum is , it can be defined as an open source and public blockchain based platform
+which supports the concepts of smart contracts, so what exactly are the smart contracts we can think it
+as a mechanism which allows common contractual clauses to be defined,verified and even enforced
+even if all the participants in the contract do not trust each other and there is no trusted third
+party who can mediate between the participants of the contract
+
+another thing ?one? needs to be familiar with when you think ethereum , is its cryptocurrency
+which is known as ether, now ether is the currency which all nodes which make up the ethereum network
+maybe compensated for their participation the ?owners? of this nodes can then go ahead and exchange
+the ether cryptocurrency for any of the regular currencies such as us dolars or euros at the time 
+of this recording the value of one ether was about 200 us dollars on the currency exchange markets
+
+the ethereum virtual machine  is an execution environment which all of the nodes participating, in 
+the ethereum network need to be  able to run  in order to execute  the smart contracts, smart contracts
+as we should soon see are essentially pieces of code which require the ethereum virtual machine in order
+to be executed we move along now to one definiton of a blockchain which can be thought ?off? as
+a growing list of records which are know as  blocks  and these blocks happend to be link together
+cryptographicly, let us examine parts of this definition in a ?? detail , a blockchain is made up
+of a number of records which are essentially the blocks  of the blockchain and to be precise it is
+a list of records which make ?it? very similar to a ledger which is used in accounting, this ledger is
+is an open one which means that there are new records which are constantly added to the ledger,
+and this ledger is open in more ways than one , in that every participant in this blockchain peer to
+peer network has the ability to view the contents of the ledger and if it meets certain conditions 
+is also able to write to it as we should soon see , this ledger is not  a centralized one  and in
+fact distributed across all the nodes in the network this distributed ledger need not be stored in it's 
+entirely on any single node of the blockchain network however between all  the nodes the entirely
+ldeger should  be recoverable if needed, so let us summarize what a blockchain is in essence it is
+an open  and distributed ledger whichs contains  a number of  records which are know as  blocks , all
+this blocks are arranged in the form of a list and within each of these blocks are sequence of
+transactions,it is not required for any indiviudal node in the blockhain network to store the full content
+of the ledger however it is posible  to recover the entire ledger from the network as a whole, the 
+transactions which are stored on a blockchain are ?coomon? can not be altered, the blocks which make 
+up the blockchain are all link together cryptographicly in that each block is linked to the block inmidiately
+preceding  it ?there by ? ensuring ?? all the blocks within blockchain as result it is almost 
+impossible for a node to unilaterally change a transaction after the fact as this would brake the 
+cryptographic link between the blocks  the result of this  is that the transactions in a blockchain 
+are all verifiable so if someone  has try  altered a transaction after the fact , then the cryptographicly
+link  in the blockcahin will be broken  an others will be able to confirm  that a transaction has 
+been  ??    identify this transaction as well

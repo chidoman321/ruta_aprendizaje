@@ -1,0 +1,30 @@
+in a block we have the merklet hash of the block
+-previos hash block
+-other metadata
+-and the proof of work nonce
+
+all this information goes through a hash funtcion 
+the requirement is that the result must be less than a targer-hash value , and this means
+the proof of work  should satisfy this condition
+
+generate a new block require 
+- the hash of all transaction represented by the merkle root
+-the hash of the previos block
+-other metadate
+-proof of work nonce
+
+after win
+    once the node found the nonce , wil broadcast to the rest of the nodes once verified
+    miner claims the reward , if some node doesnt accept it , it will lose the chance to claim 
+    new reawrds
+
+beyond proof of work
+    if someone has the  control of >51 of nodes , he can emit and verify fraudulent transactions
+    ,other issue with pow , is that every miner is seeking the  nonce, wastes tremendous amount of
+    energy
+proof of stake
+    meant to be less vulnerable to centralization 
+    details of this are beyond this course
+
+allow multiple parties to iniate transactions
+no need central authority

@@ -1,0 +1,19 @@
+what each components are
+
+what aws will be require to set up components in our blockchain 
+
+high level overview
+essential 
+-multi-node blockchain  network
+-blockchain explorer and monitoring tools
+
+each of these will run in their own docker container
+
+to manage each  we use ecr and ecs
+
+ecr allow us to store ,manage and then deploy a docker container images 
+then we can use ecs to deploy the docker containers
+
+then we need to set up elastic load balancing to manage the traffic coming into our network
+
+the templeate can handling the elb

@@ -1,0 +1,12 @@
+how the ordering is determined
+
+there is two consensus algorithms
+the fisrt is know as proof of work 
+    to write which transaction and the order of them , the nodes need to gain the privilege by prooving
+    they do the job
+the second one is the proof of stake 
+
+miners reward  = ethereum reward + all the fees on the block to write
+
+the work is the proof of work nonce , all node competes to find this nonce ,that satisfies an
+arbitrary, hard condition , can be only be found by trial and error

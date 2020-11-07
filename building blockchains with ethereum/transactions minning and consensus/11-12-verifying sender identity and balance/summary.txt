@@ -1,0 +1,38 @@
+an essential step to verify a transaction is verify the sender identity
+when a transaction is iniated it first goes to a unconfirmed pool  where nodes take  transactions
+and verfiy them before adding them  to their blocks
+
+-the node need to verify the integrity of the transaction 
+-confirm that the sender have the assets he is trying to transfer
+-and the transaction nonce
+
+many transaction may be broadcast simultaneously ,and all the nodes need to agree with the order
+of transactions via algorithm consensus
+
+how the nodes can verfiy the identity of the account each account on the ethereum network contains
+a pair of keys
+-private key in analogy this will be your (atm pin)
+-public key in analogy this will be your card number
+
+in a transaction the account need to add the 
+-signed transaction 
+-raw transaction 
+
+in the sender side there is an encrypt function 
+in the recipient side there is an decrypt functon
+
+sender side
+private key + transaction hash + encrypt function = signed transaction 
+
+recipient side
+public key + signed transaction + hashin function  = transaction hash
+raw transaction + hash function = transaction hash
+
+if the transaction hash output are the same the transaction is verified
+
+public blockchain network ,anyone can join , lots of nodes , is slow to all nodes consensus
+private network entry is restricted , and you must meet the criteria to join in fewer nodes,
+is fast to all nodes consensus
+
+to be sure that the sender have enough assets to cover the  fee and the send of assets , each node
+have a database state 
